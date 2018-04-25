@@ -271,49 +271,49 @@
 }
 
 .slide:nth-child(1) .bloc:nth-child(1) {
-	background: url(../assets/img/bg1.jpg);
+	background: url(../assets/images/bg1.jpg);
 	background-size: cover;
 	background-position: center;
 }
 
 .slide:nth-child(2) .bloc:nth-child(1) {
-	background: url(../assets/img/bg2.jpg);
+	background: url(../assets/images/bg2.jpg);
 	background-size: cover;
 	background-position: center;
 }
 
 .slide:nth-child(2) .bloc:nth-child(2) {
-	background: url(../assets/img/bg0.png);
+	background: url(../assets/images/bg0.png);
 	background-size: cover;
 	background-position: center;
 }
 
 .slide:nth-child(3) .bloc:nth-child(1) {
-	background: url(../assets/img/bg3.jpg);
+	background: url(../assets/images/bg3.jpg);
 	background-size: cover;
 	background-position: center;
 }
 
 .slide:nth-child(3) .bloc:nth-child(2) {
-	background: url(../assets/img/bgV.png);
+	background: url(../assets/images/bgV.png);
 	background-size: cover;
 	background-position: center;
 }
 
 .slide:nth-child(4) .bloc:nth-child(1) {
-	background: url(../assets/img/bg4.png);
+	background: url(../assets/images/bg4.png);
 	background-size: cover;
 	background-position: center;
 }
 
 .slide:nth-child(4) .bloc:nth-child(2) {
-	background: url(../assets/img/bgV.png);
+	background: url(../assets/images/bgV.png);
 	background-size: cover;
 	background-position: center;
 }
 
 .slide:nth-child(5) .bloc:nth-child(1) {
-	background: url(../assets/img/bg5.png);
+	background: url(../assets/images/bg5.png);
 	background-size: cover;
 	background-position: center;
 	text-align: center;
@@ -348,19 +348,19 @@
 }
 
 .slide:nth-child(5) .bloc:nth-child(2) {
-	background: url(../assets/img/bgV.png);
+	background: url(../assets/images/bgV.png);
 	background-size: cover;
 	background-position: center;
 }
 
 .slide:nth-child(6) .bloc:nth-child(1) {
-	background: url(../assets/img/bg6.png);
+	background: url(../assets/images/bg6.png);
 	background-size: cover;
 	background-position: center;
 }
 
 .slide:nth-child(6) .bloc:nth-child(2) {
-	background: url(../assets/img/bgV.png);
+	background: url(../assets/images/bgV.png);
 	background-size: cover;
 	background-position: center;
 }
