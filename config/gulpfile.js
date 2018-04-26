@@ -335,9 +335,9 @@ gulp.task('watch', () =>
 gulp.task('production', () =>
 {
 	// Minify and export images
-	gulp.src(`${path.app.images}*.*`)
+	gulp.src(`${path.app.assets}images/*.*`)
 		.pipe(gulpImagemin())
-		.pipe(gulp.dest(path.dist.images))
+		.pipe(gulp.dest(`${path.dist.assets}images/`))
 		.pipe(gulpNotify(
 			{
 				title   : 'Images',
@@ -349,7 +349,7 @@ gulp.task('production', () =>
 	gulp.src(
 		[
 			`${path.app.assets}**/*.*`,
-			`!${path.app.images}*.*`
+			`!${path.app.assets}images/*.*`
 		])
 		.pipe(gulp.dest(path.dist.assets))
 		.pipe(gulpNotify(
