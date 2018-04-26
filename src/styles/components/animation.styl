@@ -1,0 +1,52 @@
+// Slider
+@keyframes scroll-bar
+	0%
+		transform-origin 100% 100%
+		transform scaleY(1)
+	25%
+		transform-origin 100% 100%
+		transform scaleY(0)
+	75%
+		transform-origin 0% 0%
+		transform scaleY(0)
+	100%
+		transform-origin 0% 0%
+		transform scaleY(1)
+
+@keyframes astronaut-move
+	0%
+		transform translateX(5%)
+	50%
+		transform translateX(10%)
+	100%
+		transform translateX(14%)
+
+@keyframes shuttle-move
+	0%
+		transform translateX(5%)
+	50%
+		transform translateX(10%)
+	100%
+		transform translateX(14%)
+
+@keyframes sign-opacity
+	0%
+		opacity 0.2
+	100%
+		opacity 0.4
+
+@keyframes ship-move
+	0%
+		transform translateY(5%)
+	50%
+		transform translateY(10%)
+	100%
+		transform translateY(15%)
+
+// Circle
+
+@keyframes rotate-circle
+	0%
+		transform rotateZ(0deg)
+	100%
+		transform rotateZ(360deg)

@@ -1,0 +1,88 @@
+// Circle
+
+.circle
+    position absolute
+    width 40px
+    height 40px
+    border-radius 50%
+    opacity 1
+    transform-origin 50% 50%
+    transform scale(0)
+    transition opacity ease-in-out 0.25s, transform ease-in-out 0.25s
+    will-change opacity, transform
+    z-index 10
+
+    &.shown
+        transform scale(1)
+        &:hover .stick-1
+            transform scaleY(1) skew(-20deg)
+            .stick-2
+                transform scaleX(1) skew(20deg)
+                .text
+                    opacity 1
+
+    &::before
+        content ''
+        position absolute
+        left 0
+        top 0
+        width 100%
+        height 100%
+        border-radius 50%
+        background-color #FFFFFF
+        opacity 0
+        transform-origin 50% 50%
+        transition opacity ease-in-out 0.25s, transform ease-in-out 0.25s
+        will-change opacity, transform
+    &::after
+        content ''
+        position absolute
+        left 0
+        top 0
+        width 100%
+        height 100%
+        border-radius 50%
+        border dashed #FFFFFF 2px
+        transform-origin 50% 50%
+        animation rotate-circle infinite 60s linear
+        will-change transform
+    &:hover
+        &::before
+            opacity 0.125
+        &::after
+            animation-duration 10s
+
+    .stick-1
+        position absolute
+        left calc(50% - 1px)
+        bottom 100%
+        width 2px
+        height 30px
+        background-color #FFFFFF
+        transform-origin 50% 100%
+        transform scaleY(0) skew(0)
+        transition transform 0.25s ease-in-out
+        will-change transform
+
+        .stick-2
+            position absolute
+            left 0
+            top 0
+            width 30px
+            height 2px
+            background-color #FFFFFF
+            transform-origin 0 0
+            transform scaleX(0) skew(20deg)
+            transition transform 0.25s ease-in-out
+            transition-delay 0.25s
+            will-change transform
+
+        .text
+            position absolute
+            left 125%
+            top 0
+            width 15rem
+            font-size 0.625rem
+            font-weight 200
+            text-align justify
+            hyphens auto
