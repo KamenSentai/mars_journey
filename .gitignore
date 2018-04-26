@@ -3,7 +3,6 @@
 ### Git ###
 *.orig
 app/
-dist/
 
 ### macOS ###
 *.DS_Store
