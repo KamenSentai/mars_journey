@@ -1,26 +1,41 @@
-# Mars Journey by Space X
+# Mars Journey by SpaceX
 
-## Team-17
+## Context
 
-- Alexandre GODDE - Team Leader
-- Justine DI MEO - Dev
-- Alain CAO VAN TRUONG - Dev
-- Amélie GROSJEAN - Dev
-- Julien BRETECHER - Designer 
+- For an intensive week about front-end, our team had to create a website about SpaceX
+- There are 20 teams and our team is number 17
+- The project happened from Monday 18th to Friday 22th, December 2017
+
+## Result
+
+- 17/20
+
+## Team
+
+| Name                 |  Role                      |
+| -------------------- | -------------------------- |
+| Alexandre Godde      | Project manager & designer |
+| Julien Bretecher     | Lead designer              |
+| Alain Cao Van Truong | Lead developer             |
+| Amélie Grosjean      | UI developer               |
+| Justine Di Meo       | UX developer               |
 
 ## Instructions
 
-- Go to marsproject.fr
 - Put your headphone
+- Discover the trip events
 - Enjoy the experience
 
 ## Technologies
 
-- HTML / CSS
-- JS
-- GULP
-- Github
-- Bodymovin / Lottie
+- Pug
+- Stylus
+- ES6 JS
+- Gulp
+- Git
+- After Effect
+- Bodymovin
+- Lottie
 - Howler.js
 
 ## Features
@@ -29,10 +44,9 @@
 - Loading page
 
 ## Future features
-- AR / VR
+- AR & VR
 
 ## Thanks
-- Bruno Simon 
-- HETIC P2021
-- HETIC
-- Space X
+- Bruno Simon
+- Our classmates
+- HÉTIC
