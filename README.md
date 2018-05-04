@@ -12,13 +12,13 @@
 
 ## Team
 
-| Name                 |  Role                      |
-| -------------------- | -------------------------- |
-| Alexandre Godde      | Project manager & designer |
-| Julien Bretecher     | Lead designer              |
-| Alain Cao Van Truong | Lead developer             |
-| Amélie Grosjean      | UI developer               |
-| Justine Di Meo       | UX developer               |
+| Name                                                   |  Role                      |
+| ------------------------------------------------------ | -------------------------- |
+| Alexandre Godde                                        | Project manager & designer |
+| Julien Bretecher                                       | Lead designer              |
+| [Alain Cao Van Truong](https://github.com/KamenSentai) | Lead developer             |
+| [Amélie Grosjean](https://github.com/ameliegj)         | UI developer               |
+| [Justine Di Meo](https://github.com/justinedimeo)      | UX developer               |
 
 ## Instructions
 
