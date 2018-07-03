@@ -6,10 +6,6 @@
 - There are 20 teams and our team is number 17
 - The project happened from Monday 18th to Friday 22th, December 2017
 
-## Result
-
-- 17/20
-
 ## Team
 
 | Name                                                   |  Role                      |
