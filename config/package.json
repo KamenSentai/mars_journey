@@ -1,7 +1,7 @@
 {
   "name": "mars_journey",
   "version": "1.0.0",
-  "description": "mars journey",
+  "description": "Mars Journey",
   "main": "gulpfile.js",
   "dependencies": {},
   "devDependencies": {
@@ -32,15 +32,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/KamenSentai/mars_journey.git"
+    "url": "git+https://github.com/KamenSentai/Mars_Journey.git"
   },
   "keywords": [
-    "mars_journey"
+    "Mars_Journey"
   ],
   "author": "Alain Cao Van Truong",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/KamenSentai/mars_journey/issues"
+    "url": "https://github.com/KamenSentai/Mars_Journey/issues"
   },
-  "homepage": "https://github.com/KamenSentai/mars_journey#readme"
+  "homepage": "https://github.com/KamenSentai/Mars_Journey#readme"
 }
