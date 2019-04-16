@@ -35,27 +35,27 @@ const path =
 {
 	app  :
 	{
-		root    : './../app/',
-		scripts : './../app/scripts/',
-		styles  : './../app/styles/',
-		views   : './../app/views/',
-		assets  : './../app/assets/'
+		root    : './app/',
+		scripts : './app/scripts/',
+		styles  : './app/styles/',
+		views   : './app/views/',
+		assets  : './app/assets/'
 	},
 	dist :
 	{
-		root    : './../dist/',
-		scripts : './../dist/scripts/',
-		styles  : './../dist/styles/',
-		views   : './../dist/views/',
-		assets  : './../dist/assets/'
+		root    : './dist/',
+		scripts : './dist/scripts/',
+		styles  : './dist/styles/',
+		views   : './dist/views/',
+		assets  : './dist/assets/'
 	},
 	src  :
 	{
-		root    : './../src/',
-		scripts : './../src/scripts/',
-		styles  : './../src/styles/',
-		views   : './../src/views/',
-		assets  : './../src/assets/'
+		root    : './src/',
+		scripts : './src/scripts/',
+		styles  : './src/styles/',
+		views   : './src/views/',
+		assets  : './src/assets/'
 	}
 }
 
