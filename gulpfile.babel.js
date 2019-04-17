@@ -56,7 +56,7 @@ for (const folder of folders) {
  */
 
 // Server
-gulp.task('server', ['styles', 'scripts', 'templates'], () => {
+gulp.task('server', ['assets', 'styles', 'scripts', 'templates'], () => {
   browserSync.init({
     proxy   : `http://localhost/${local}`,
     browser : 'Google Chrome'
@@ -68,6 +68,19 @@ gulp.task('server', ['styles', 'scripts', 'templates'], () => {
   gulp.watch([
     'src/index.pug'
   ], ['templates'])
+})
+
+// Assets
+gulp.task('assets', () => {
+  return gulp.src('src/assets/**/*.*')
+    .pipe($.plumber())
+    .pipe(gulp.dest('dist/assets/'))
+    .pipe(browserSync.stream())
+    .pipe($.notify({
+      title   : 'Assets',
+      message : message.compiled,
+      sound   : 'beep'
+    }))
 })
 
 // Styles
