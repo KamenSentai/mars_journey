@@ -13,12 +13,12 @@ export default class Slider
     // Slider elements
     const $slider       = document.querySelector('.slider')
     const $slides       = Array.from($slider.querySelectorAll('.slide'))
-  const $frame        = document.querySelector('.frame')
-  const $title        = $frame.querySelector('.title')
+    const $frame        = document.querySelector('.frame')
+    const $title        = $frame.querySelector('.title')
     const $titleChapter = $frame.querySelector('.title-chapter')
     const $textChapter  = $frame.querySelector('.text-chapter')
     const $circles      = document.querySelector('.circles')
-  const $dots         = document.querySelector('.dots')
+    const $dots         = document.querySelector('.dots')
 
     const dots      = new Array()
     let isScrolling = false
