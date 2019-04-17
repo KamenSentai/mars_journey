@@ -149,7 +149,7 @@ export default class Slider
     window.addEventListener('keydown', (event) =>
     {
       // Prevent multiple simultaneous scroll
-      if (!isScrolling && !isClicked)
+      if (!isScrolling && !isClicked && (event.keyCode == 37 || event.keyCode == 38 || event.keyCode == 39 || event.keyCode == 40))
       {
         const $activeSlide = $slides.find($slide => $slide.classList.contains('active'))
         const $blocs       = Array.from($activeSlide.querySelectorAll('.bloc'))
